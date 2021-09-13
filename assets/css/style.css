@@ -128,13 +128,6 @@ button {
   margin: 0 auto;
 }
 
-.container2 {
-  width: 1100px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 1100px) {
   .container {
     width: calc(100% - 40px);
