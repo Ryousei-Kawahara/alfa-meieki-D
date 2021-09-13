@@ -272,7 +272,9 @@ button {
 * title
 **********************/
 .main-title {
+  position: absolute;
   margin: 0;
+  top:50px;
 }
 
 .sub-title {
