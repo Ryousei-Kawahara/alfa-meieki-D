@@ -33,24 +33,16 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><font color="#ffffff"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center"></p>
-            <p class="text-center"></p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
-  
+            <h2 class="section-title section-title--keycolorlight"><font color="#ffffff"><span class="section-title__stage">STAGE：1</span>謎を解いてメッセージを受け取ろう</h2>
+            <p class="text-center">友人から送られてきた写真を見るとどうやらメールの内容は本当だったようだ。<br>
+                                   送られてきた謎はその時代にはそぐわない現代的な見た目をしていた。<br>
+                                   この時代にこんなものがあるのはおかしい。もしかしたら自分たちのようにタイムスリップしてしまった人がいるのかもしれない。<br>
+                                   とにかくこの謎は解いてみる価値がありそうだ。<br>
+                                   困った時にはよく考えてみよう。<br>
             <div class="container">
               <figure class="image__container">
                 <img src="assets/images/question1.png" alt="">
               </figure>
-                
- <!--  YouTube貼り付け
-              <div class="youtube__container">
-                <div class="youtube">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/IRyJe-0Uie0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-Youtube貼り付けここまで -->
-                
             </div>
           </div>
         </section>
@@ -135,7 +127,7 @@ Youtube貼り付けここまで -->
                   <!-- STAGE2-1解答入力セクション　ここから -->
                   <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>キーワードを入力</h2>
                   <answer-input v-bind:correct="correctAnswer['stage2']['q1']" v-on:answer-input="answerInput($event, 'stage2', 1)"></answer-input>
-                  <a class="link-hint" href="hint2.html" target="hint2">ヒントをみる ></a>
+                  <a class="link-hint" href="hint2.html" target="hint2">よく考えてみる></a>
                   <!-- STAGE2-1解答入力セクション　ここまで -->
                 </div><!-- /.column -->
                 <!-- STAGE2-1　ここまで -->
@@ -218,7 +210,7 @@ Youtube貼り付けここまで -->
               4番目の引数 'final' は最終ステージを表します。
             ------------------------------------------------------------------------------------------------------------------>
             <answer-input v-bind:correct="correctAnswer['stage3']['q1']" v-on:answer-input="answerInput($event, 'stage3', 1, 'final')"></answer-input>
-            <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
+            <a class="link-hint" href="hint3.html" target="hint3">よく考えてみる></a>
           </div>
         </section>
         <!-- STAGE3-1解答入力セクション　ここまで -->
