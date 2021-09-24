@@ -457,8 +457,14 @@ button {
   margin-top: 20px;
 }
 
-.clear-message {
-  background-color: #d9e021;
+.clear-message1 {
+  background-color: #6b8e23;
+  padding: 30px 30px 60px;
+  position: relative;
+}
+
+.clear-message2 {
+  background-color: #48d1cc;
   padding: 30px 30px 60px;
   position: relative;
 }
